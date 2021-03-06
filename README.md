@@ -4,7 +4,7 @@
 This is the implementation of the paper published in SIGMOD 2021 [[Paper](XX)] [[Slide](XX)] [[Poster](XX)] [[Video](XX)]
 
 ## 1. Overview
-TBD
+Real-time outlier detection from a data stream has become increasingly important in the current hyperconnected world. This paper focuses on an important yet unaddressed challenge in continuous outlier detection: the multiplicity and dynamicity of queries. This challenge arises from various contexts of outliers evolving over time, but the state-of-the-art algorithms cannot handle the challenge effectively, as they can only process a fixed set of outlier detection queries for each data point separately. In this paper, we propose a novel algorithm, abbreviated as MDUAL, based on a new idea called duality-based unified processing. The underlying rationale is to exploit the duality of data and queries so that a group of similar data points are processed together by a group of similar queries incrementally. Two main techniques embodying the idea, data-query grouping and prioritized group processing, are employed. Comprehensive experiments showed that MDUAL runs 216 to 221 times faster while consuming 11 to 13 times less memory than the state-of-the-art algorithms through its efficient and effective handling of the multiplicity–dynamicity challenge.
 
 ## 2. Data Sets
 | Name    | # data points  | # Dim    | Size    | Link           |
@@ -26,8 +26,10 @@ javac test/testLoad.java
 java test.testLoad
 ```
 - Example output
-Dataset &nbsp; Queryset &nbsp; ChgQRatio &nbsp; Time &nbsp; AvgMem &nbsp; PeakMem &nbsp; #Out &nbsp; #OutQ   
-STK &nbsp; STK_Q10 &nbsp; 0.2 &nbsp; 2.42 &nbsp; 3.3 &nbsp; 13.5 &nbsp; 5 &nbsp; 10  
+```
+Dataset Queryset ChgQRatio Time AvgMem PeakMem #Out #OutQ   
+STK STK_Q10 0.2 2.42 3.3 13.5 5 10  
+```
 
 ## 4. Citation
 ```
