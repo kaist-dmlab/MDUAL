@@ -1,8 +1,6 @@
 # MDUAL
 # Multiple Dynamic Outlier-Detection from a Data Stream by Exploiting Duality of Data and Queries
 
-
-
 This is the implementation of the paper published in SIGMOD 2021 [[Paper](https://drive.google.com/file/d/13lANlork5a42Uro4QIISrk-mQMymGgfV/view?usp=sharing)] [[Slide](XX)] [[Poster](XX)] [[Video](XX)]
 
 ## 1. Overview
