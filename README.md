@@ -39,4 +39,4 @@ STK STK_Q10 0.2 2.42 3.3 13.5 5 10
   booktitle={Proceedings of the 2021 ACM SIGMOD International Conference on Management of Data},
   year={2021}
 }
-```` 
+````
